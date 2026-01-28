@@ -1,0 +1,4 @@
+node_modules/
+cloud-storage/
+local-secure-storage/
+.DS_Store

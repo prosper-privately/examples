@@ -1,0 +1,19 @@
+{
+  "name": "practical-key-hierarchy-example",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Minimal example for the practical key hierarchy blog post.",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "set-passphrase": "node src/set-passphrase.js",
+    "encrypt-photo": "node src/encrypt-photo.js",
+    "decrypt-photo": "node src/decrypt-photo.js",
+    "change-passphrase": "node src/change-passphrase.js"
+  },
+  "dependencies": {
+    "libsodium-wrappers-sumo": "^0.7.13"
+  }
+}
