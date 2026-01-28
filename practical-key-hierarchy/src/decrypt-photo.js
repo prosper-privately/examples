@@ -1,3 +1,4 @@
+/* global console, process */
 import fs from "node:fs/promises";
 import path from "node:path";
 import { getDecryptedPhotoBytes } from "./photo.js";

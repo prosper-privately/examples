@@ -1,3 +1,4 @@
+/* global console, process */
 import {
   derivePdk,
   generateKdfSalt,
@@ -11,7 +12,7 @@ import { AAD_VERSION, USER_ID } from "./config.js";
 const passphrase = process.argv[2];
 
 if (!passphrase) {
-  console.error("Usage: npm run set-passphrase -- \"your passphrase\"");
+  console.error('Usage: npm run set-passphrase -- "your passphrase"');
   process.exit(1);
 }
 

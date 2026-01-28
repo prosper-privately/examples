@@ -1,3 +1,5 @@
+import { TextEncoder } from "node:util";
+
 export function encodeAad(aad) {
   const canonical = {
     userId: aad.userId,

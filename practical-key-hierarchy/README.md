@@ -2,7 +2,8 @@
 
 An example of using a key hierarchy.
 
-For more details see our blog at [ProsperPrivately.com](https://www.prosperprivately.com/blog).
+For more details see
+[our blog on client-side encryption](https://prosperprivately.substack.com/p/client-side-photo-encryption-a-practical?utm_source=gh).
 
 ## Requirements
 

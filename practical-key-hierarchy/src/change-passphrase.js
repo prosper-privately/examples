@@ -1,3 +1,4 @@
+/* global console, process */
 import {
   derivePdk,
   generateKdfSalt,
@@ -11,7 +12,7 @@ const [oldPassphrase, newPassphrase] = process.argv.slice(2);
 
 if (!oldPassphrase || !newPassphrase) {
   console.error(
-    "Usage: npm run change-passphrase -- \"old passphrase\" \"new passphrase\"",
+    'Usage: npm run change-passphrase -- "old passphrase" "new passphrase"',
   );
   process.exit(1);
 }
